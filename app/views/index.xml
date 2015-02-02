@@ -1,0 +1,12 @@
+<Alloy>
+	<Window>
+		<View  class="container">
+		<Label class="h1">PushIO</Label>
+		<Label class="h1" >Example App</Label>
+		<Label class="small left-align">PushIO UUID</Label>
+		<Label class="small left-align" id="pushUUID"></Label>
+		<Label class="small left-align">Push Data</Label>
+		<Label class="small left-align" id="pushData"></Label>
+		</View>
+	</Window>
+</Alloy>
