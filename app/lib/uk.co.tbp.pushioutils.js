@@ -127,7 +127,7 @@ function _deviceTokenError(e) {
 function _receivePush(e) {
   _debug('_receivePush', e);
   PushIO.recordNotification(e.data);
-  alert(JSON.stringify(e,null,' '));
+  _debug(JSON.stringify(e,null,' '));
 }
 
 /**
